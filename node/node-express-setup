@@ -1,0 +1,12 @@
+//install express : npm i express 
+//ctrl+c : close server
+
+const express = require("express");
+//initialization
+const ourApp = express();
+ourApp.get /*http method*/ ("/" /*rought*/ ,(request,response ) => {
+     //return the response of json format
+     response.json({massage:"request served!!"});
+});
+//4000 is port number
+ourApp.listen(4000, () => console.log("server is running...."));
