@@ -1,5 +1,5 @@
 //install express : npm i express 
-//ctrl+d : close server
+//ctrl+c : close server
 
 const express = require("express");
 //initialization
